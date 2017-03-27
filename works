@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>陈旻婕个人简历</title>
+    <link rel="stylesheet" href="css/rest.css"/>
+    <link rel="stylesheet" href="css/swiper.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/works.css"/>
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/works.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="swiper-container">
+    <!-- header-->
+    <div class="header">
+       <div class="h-inner">
+           <div>
+               <i class="nav_i1"></i>
+               <i class="nav_i2"></i>
+               <i class="nav_i3"></i>
+           </div>
+           <ul class="work-nav fr">
+               <li><a href="#">ABOUT</a></li>
+               <li><a href="#">WORKS</a></li>
+               <li><a style="padding-right:0" href="#">EXPRIENCE</a></li>
+           </ul>
+       </div>
+    </div>
+    <div class="swiper-wrapper">
+        <!-- 第一层 -->
+        <div class="swiper-slide"  style="background:#f9f9f9;">
+            <div class="about-inner">
+                <p class="MyPhoto" ><img src="images/works-photo.png" alt=""/></p>
+                <ul class="oneself">
+                    <li>
+                        <h1>陈旻婕&nbsp;&nbsp;web前端工程师</h1>
+                        <ul class="oneself-msg">
+                            <li><em class="tel"></em>18911427102</li>
+                            <li><em class="email"></em>c_mj@foxmail.com</li>
+                            <li><em class="add"></em>北京市· 丰台区</li>
+                        </ul>
+                    </li>
+                </ul>
+                <img class="Myskill" src="images/works-about-skill.png" alt=""/>
+            </div>
+        </div>
+        <!-- 第二层 -->
+        <div class="swiper-slide"  style="background:#f9f9f9;">
+            <p class="second_p"></p>
+            <p class="second_p"></p>
+            <p class="second_p2">前端制作</p>
+            <p class="second_p3">最开始从事着网页设计的工作，后来因为工作方面的原因深入的了解、接触并尝试过代码后，体验到其带给我的快乐，发现我更喜欢前端这一项工作并为之努力。</p>
+        </div>
+        <!-- 第三层 -->
+        <div class="swiper-slide"  style="background:#f9f9f9;">
+            <div class="works_inner">
+                <p class="works_tit fl" >WEB页面</p>
+                <ul class="works_com fr">
+                    <li class="list fl">
+                        <i><a href="http://www.4008885098.com/">欧典</a></i>
+                        <p>初次尝试摸索着写出了 官网的页面。</p>
+                    </li>
+                    <li class="list fl">
+                        <i><a href="http://www.yylm.org/">优活</a></i>
+                        <p>一个写了蛮久的网站，使我的技能得到了提升。</p>
+                    </li>
+                    <li class="list fr">
+                        <i><a href="">籽墨</a></i>
+                        <p>15年突然兴起的H5，尝试着接了一个小页面</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- 第四层 -->
+        <div class="swiper-slide"  style="background:#f9f9f9;">
+           <div class="exprience_inner">
+               <ul class="con-box box1">
+                   <li>1.主要负责天猫店铺的首页、专题、产品详情页设计；</li>
+                   <li>2.负责画册需要用到的产品图合成；</li>
+                   <li>3.对官网产品页面进行维护，后期为官网整体改版制作。</li>
+               </ul>
+               <ul class="con-box box2">
+                   <li>1.参与公司网站页面改版设计与制作，主题网站静态页面制作；</li>
+                   <li>2.负责公司展会活动画册、宣传册、单页的设计；</li>
+               </ul>
+               <ul class="fourth-work clearfix">
+                   <li>
+                       <i class="work-line"></i>
+                   </li>
+                   <li class="work-con1 fl">
+                       <p class="work-con-tit p-tit1">
+                           欧典木业有限公司<br/>网站美工<br/>
+                           <span>2011.6 — 2014.2</span>
+                       </p>
+                   </li>
+                   <li class="work-con2 fl">
+                        <p class="work-con-tit p-tit2">
+                            优活联盟(北京)科技有限公司<br/>网页设计与制作<br/>
+                            <span>2014.2 — 2017.2</span>
+                        </p>
+                   </li>
+               </ul>
+           </div>
+    </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+</body>
+<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        mousewheelControl : true,
+        direction: 'vertical'
+    });
+
+</script>
+</html>
